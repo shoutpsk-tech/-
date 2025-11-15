@@ -1,0 +1,22 @@
+{
+  "name": "brain-adventure",
+  "version": "1.0.0",
+  "description": "브레인 어드벤처 - 미션 기반 점프 게임",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "keywords": ["game", "platformer", "brain-test"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "phaser": "^3.60.0"
+  },
+  "devDependencies": {
+    "webpack": "^5.88.0",
+    "webpack-cli": "^5.1.0",
+    "webpack-dev-server": "^4.15.0",
+    "copy-webpack-plugin": "^11.0.0"
+  }
+}

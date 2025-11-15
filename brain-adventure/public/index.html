@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>브레인 어드벤처</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      font-family: 'Arial', sans-serif;
+    }
+    #game-container {
+      box-shadow: 0 10px 40px rgba(0,0,0,0.5);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .game-info {
+      position: absolute;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: rgba(0,0,0,0.7);
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      text-align: center;
+    }
+    .game-info h1 {
+      margin: 0;
+      font-size: 24px;
+      color: #ffd700;
+    }
+    .game-info p {
+      margin: 5px 0 0 0;
+      font-size: 14px;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="game-info">
+    <h1>🧠 브레인 어드벤처</h1>
+    <p>퀴즈를 풀고 점프맵을 클리어하세요!</p>
+  </div>
+  <div id="game-container"></div>
+  <script src="bundle.js"></script>
+</body>
+</html>
